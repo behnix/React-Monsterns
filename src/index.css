@@ -1,13 +1,47 @@
+/* font-Tanha */
+@font-face {
+  font-family: Tanha;
+  src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot');
+  src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot?#iefix') format('embedded-opentype'),
+       url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.woff') format('woff'),
+       url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.ttf') format('truetype');
+  font-weight: normal;
+}/* font-Titrbold */
+@font-face {
+  font-family: Titrbold;
+  src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot');
+  src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot?#iefix') format('embedded-opentype'),
+       url('http://fonts.codearena.ir/b/titrbold/titrbold.woff') format('woff'),
+       url('http://fonts.codearena.ir/b/titrbold/titrbold.ttf') format('truetype');
+  font-weight: normal;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: Tanha, "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 80, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .App {
   text-align: center;
   direction: rtl;
+}
+.App h1{
+  font-family: Titrbold, tahoma;
+  font-size: 52px;
+  color: #77b414
+}
+.App input{
+  font-family: Tanha, tahoma;
+  background-color: #1e9c8c;
+  color:white;
+  border-radius: 5px;
 }

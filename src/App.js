@@ -29,6 +29,7 @@ class App extends React.Component {
     );
     return (
       <div className="App">
+        <h1>لیست ربات های فارسی</h1>
         <SearchBox
           placeholder="جستجو هیولا..."
           handleChange={this.handleChange}
